@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+*{
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: default;
+}
+body{
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.835),rgba(0, 0, 0, 0.835)),url(https://cdn.pixabay.com/photo/2014/09/24/16/28/bricks-459299_960_720.jpg);
+    margin-top: 20px;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Concert One', cursive;
+    color: #E6E6FA;
+    text-shadow: 2px 0px 1px #5ac850 ;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #E6E6FA;
+}
+.round_table {
+    margin-top: 0;
+    border-collapse:separate;
+    border-spacing: 0;
+  
+}
+section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 div{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 47px;
+    overflow: hidden;
+}
+
+th{
+    padding: 20px;
+    background-color: rgba(255, 160, 122, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 174px;
+}
+td {
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    height: 60px;
+}
+.HORA{
+    width: 100px;
+}
+th,
+td {
+    border: 1px solid black;
+}
+
+/*------------ HORA HOVER ---------------*/
+
+ .hora{
+     width: 120px;
+     background-color: rgba(255, 239, 213, 0.507);
+     transition: background-color 0.2s;
+ }
+ .hora:hover{
+
+    background-color: rgb(255, 239, 213);
+ }
+
+ /*------------ HORA HOVER ---------------*/
+
+ /*------------ DIARIO HOVER ---------------*/
+
+.diario{
+    background-color: #e6e6fa70;
+    transition: 0.2s;
+}
+.diario:hover{
+    background-color: #e6e6faf5;
+}
+
+ /*------------ DIARIO HOVER ---------------*/
+
+  /*------------ CURSOS HOVER ---------------*/
+
+.cursos{
+    background-color: #90ee9069;
+    transition: 0.3s;
+}
+.cursos:hover{
+    background-color: #90ee90f3;
+}
+
+ /*------------ CURSOS HOVER ---------------*/
+
+ /*------------ TRABAJO HOVER ---------------*/
+
+.trabajo{
+    background-color: #e9967a77;
+    transition: 0.2s;
+}
+.trabajo:hover{
+    background-color: #e9967aec;
+}
+
+ /*------------ TRABAJO HOVER ---------------*/
+
+ /*------------ REPASAR HOVER ---------------*/
+
+.repasar{
+    background-color: #d979ffc4;
+}
+.repasar:hover{
+    color:white;
+    text-shadow: 2px 2px 7px black;
+}
+ /*------------ REPASAR HOVER ---------------*/
+
+
+.clase{
+    border-color: gold;
+    border-width: 10px;
+    outline: 1px ridge rgb(0, 0, 0);
+    border-style: outset;
+    transition: border-color 0.1s;
+}
+.clase:hover{
+    border-color: rgb(79, 218, 86);
+    border-width: 10px;
+
+}
+
+
+.comunicacion, .fundamentos, .matematica,.calculo,.prebeginer,.mecanica{
+    font-weight: 200;
+    color: aliceblue;
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+    text-shadow: 3px 3px 4px  BLACK; 
+}
+
+
+
+.comunicacion{
+    background-image: linear-gradient(160deg, rgb(72, 65, 170) 0%, rgb(0, 147, 233) 50%, rgb(128, 208, 199) 100%);        
+}
+
+.matematica{
+    background-color: #f5f459;
+    background-image: linear-gradient(147deg, #31312f 0%, #ff6d24 74%);
+
+}
+.fundamentos{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, rgb(36, 35, 35) 0%, rgb(219, 219, 219) 100%);
+}
+.calculo{
+    background-color: rgb(79, 176, 255);
+    
+}
+.prebeginer{
+    background-color: dimgrey;
+}
+.mecanica{
+    background-color: black;
+}
+summary{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    letter-spacing: 35px;
+}
+.acordeon{
+
+    background-size: 100%;
+    border: 5px black solid;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    padding: 0;
+}
+
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+ul {
+    list-style-type: none;
+    background-color: #199e1f;
+    display: flex;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+    padding-left:0 ;
+}
+header li{
+    float: left;
+}
+header a{
+    font-family: 'Bungee', cursive;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration:none;
+    color: aliceblue;
+
+
+}
+li a:hover{
+    background-color: #90EE90;
+    background-size: 500%;
+    color: darkblue;
+
+}
+.tr-encabezado{
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.traslado{
+background-color: #f5f55965;
+transition: background-color 0.2s;
+}
+.traslado:hover{
+    background-color: #f5f559e7;
+}
+
+ /*------------ HOVER ---------------*/
+
+.organizacion{
+    background-color: cornflowerblue;
+}
+.organizacion:hover{
+    color: white;
+}
+.ayer{
+    background-color: #da70d6b6;
+    transition: background-color 0.1s;
+}
+.ayer:hover{
+    background-color: #ff27f8b6;
+}
+.relax{
+    background-color: rgba(127, 255, 212, 0.541);
+    transition: background-color 0.2s;
+}
+.relax:hover{
+    background-color: rgb(50, 224, 166);
+}
+
+ /*------------ HOVER ---------------*/
+
+.upn{
+    border-color: rgb(255, 255, 255);
+    border-style: ridge;
+    border-width: 10px;
+    color: white;
+    transition: border-color 0.2s, border-width 0.2s;
+}
+.upn:hover{
+    border-color: rgb(85, 85, 85);
+    border-width: 20px;
+}
+.virtuales{
+    background-color: rgba(144, 15, 84, 0.527);
+    color: #FFCC70;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #03030c;
+    transition: background-color 0.2s    ;
+}
+.virtuales:hover{
+    background-color: rgba(144, 15, 84, 0.884);
+
+}
+.retroalimentacion{
+    background-color: rgba(255, 16, 16, 0.404);
+    transition: background-color 0.2s , color 0.2s;
+}
+.retroalimentacion:hover{
+    background-color: rgba(255, 16, 16, 0.842);
+    color: white;
+}
+.tamaño{
+    height: 100px;
+}
