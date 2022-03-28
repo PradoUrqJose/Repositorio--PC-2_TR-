@@ -296,8 +296,10 @@ h1{
 th{
     padding: 10px;
     width: 87px;
+    font-size: 8px;
 }
 td {
+    font-size: 8px;
     padding: 7px;
     width: 50px;
     text-align: center;
@@ -329,6 +331,13 @@ li a:hover{
 .tamaño{
     height: 50px;
 }
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .section1 div{
 
     width: auto;
@@ -336,7 +345,14 @@ li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border-radius: 0px;
 
 }
+.comunicacion, .fundamentos, .matematica,.calculo,.prebeginer,.mecanica{
+    font-weight: 100;
+    font-size: 9px;
+
+}
+
+
 }
