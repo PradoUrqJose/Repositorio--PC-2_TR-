@@ -296,7 +296,7 @@ h1{
 th{
     padding: 10px;
     width: 87px;
-    font-size: 8px;
+    font-size: 6px;
 }
 td {
     font-size: 8px;
@@ -349,8 +349,8 @@ section{
 
 }
 .comunicacion, .fundamentos, .matematica,.calculo,.prebeginer,.mecanica{
-    font-weight: 100;
-    font-size: 9px;
+    font-weight: 0;
+    font-size: 7px;
 
 }
 
