@@ -300,19 +300,18 @@ transition: background-color 0.2s;
     border-color: rgb(85, 85, 85);
     border-width: 10px;
 }
-@media (max-width: 800px){
+
+@media (max-width: 1000px){
 
 
 h1{
-
     margin-bottom: 15px;
     color: #C850C0;
-
 }
 th{
     padding: 10px;
     width: 87px;
-    font-size: 8px;
+    font-size: 6px;
 }
 td {
     font-size: 8px;
@@ -326,23 +325,17 @@ td {
 }
 .hora{
     width: 60px;
-
 }
 ul {
-
     margin-top: 10px;
     padding: 15px;
     margin: 10px;
 }
-
 header a{
     padding: 10px;
-
 }
 li a:hover{
-
     background-size: 500%;
-
 }
 .tamaño{
     height: 50px;
@@ -355,20 +348,15 @@ section{
     align-items: center;
 }
 .section1 div{
-
     width: auto;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0px;
-
 }
 .comunicacion, .fundamentos, .matematica,.calculo,.prebeginer,.mecanica{
-    font-weight: 100;
-    font-size: 9px;
-
+    font-weight: 0;
+    font-size: 7px;
 }
-
-
 }
