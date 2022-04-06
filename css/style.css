@@ -359,4 +359,13 @@ section{
     font-weight: 0;
     font-size: 7px;
 }
+        .csharp:hover{
+        background-image: url(https://www.secret-source.eu/wp-content/uploads/2017/11/C-sharp-logo.jpg);
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-color: #7F3089;
+        background-position: center;
+ 
+        color: #03030c00;
+    }
 }
